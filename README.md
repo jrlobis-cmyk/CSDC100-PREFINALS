@@ -25,6 +25,13 @@ How to Run the Project
 
 No installation is required; it is a static website.
 
+Deployed links
+
+1.https://jrlobis-cmyk.github.io/CSDC100-PREFINALS/index.html
+2.https://jrlobis-cmyk.github.io/CSDC100-PREFINALS/faq.html
+3.https://jrlobis-cmyk.github.io/CSDC100-PREFINALS/ethics.html
+4.https://jrlobis-cmyk.github.io/CSDC100-PREFINALS/article.html
+
 Frameworks / Libraries Used
 
 - **Bootstrap 5.3.3**  
