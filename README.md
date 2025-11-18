@@ -2,7 +2,7 @@
 
 A student-friendly, static website about Generative AI (GenAI), its FAQs, ethical use, and an analogy comparing AI-assisted work in development.  
 
-The website uses animations, Bootstrap 5, and a single CSS file for styling.
+The website uses animations, Bootstrap 5, and a  CSS file for styling.
 
 ---
 
