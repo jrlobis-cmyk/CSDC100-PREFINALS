@@ -47,3 +47,8 @@ References
 - OECD AI Principles
 
   Created by John Rey A. Lobis, ZC12
+
+
+  <img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/e6f33607-3702-4e24-83d0-b5fa9a828c1f" />
+  
+
