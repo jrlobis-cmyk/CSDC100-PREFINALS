@@ -1,1 +1,141 @@
+:root{
+  --bg: #f8f9fa;
+  --text: #111;
+  --muted: #555;
+  --nav-bg: #4a4a9c;
+  --nav-text: #fff;
+  --hero-start: #4a4a9c;
+  --hero-end: #6e6ed8;
+  --hero-text: #fff;
+  --card-bg: #ffffff;
+  --card-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+  --footer-bg: var(--card-bg); 
+  --footer-border: transparent;
+}
+
+
+body.dark {
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --muted: #9aa6bb;
+  --nav-bg: #2b2f4a;
+  --nav-text: #e6eef8;
+  --hero-start: #202437;
+  --hero-end: #38406a;
+  --hero-text: #eef6ff;
+  --card-bg: #0f1724;
+  --card-shadow: 0px 4px 14px rgba(0,0,0,0.6);
+  --footer-bg: #071125; /* darker footer in dark mode */
+  --footer-border: rgba(255,255,255,0.03);
+  --footer-text: var(--muted);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.user-set-theme) {
+    --bg: #0b1220;
+    --text: #e6eef8;
+    --muted: #9aa6bb;
+    --nav-bg: #2b2f4a;
+    --nav-text: #e6eef8;
+    --hero-start: #202437;
+    --hero-end: #38406a;
+    --hero-text: #eef6ff;
+    --card-bg: #0f1724;
+    --card-shadow: 0px 4px 14px rgba(0,0,0,0.6);
+  }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-custom {
+  background-color: var(--nav-bg);
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: var(--nav-text) !important;
+}
+
+
+.hero-section {
+  background: linear-gradient(135deg, var(--hero-start), var(--hero-end));
+  padding: 100px 20px;
+  color: var(--hero-text);
+  text-align: center;
+}
+
+/* section card */
+.section-box {
+  background: var(--card-bg);
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  color: var(--text);
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  color: var(--muted);
+  font-size: 14px;
+  background-color: var(--footer-bg);
+  border-top: 1px solid var(--footer-border);
+}
+
+.fade-in {
+  opacity: 1;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-grow {
+  transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.05);
+}
+
+.shadow-appear {
+  animation: showShadow 1s ease forwards;
+}
+
+@keyframes showShadow {
+  from { box-shadow: 0 0 0 rgba(0,0,0,0); }
+  to { box-shadow: 0px 4px 12px rgba(0,0,0,0.2); }
+}
+
 
