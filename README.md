@@ -55,4 +55,8 @@ References
 
   Created by John Rey A. Lobis, ZC12
 
-/img/Screenshot 2025-11-18 093630.png
+![screenshot](/img/Screenshot 2025-11-18 093630.png)
+![screenshot](/img/Screenshot 2025-11-18 093649.png)
+![screenshot](/img/Screenshot 2025-11-18 093658.png)
+![screenshot](/img/Screenshot 2025-11-18 093709.png)
+
