@@ -2,7 +2,8 @@
 
 My Pre-Finals static website about Generative AI (GenAI), its FAQs, ethical use, and an analogy comparing AI-assisted work in development.  
 
-The website uses is coded in html, with the help Bootstrap 5, Chatgpt of course for things I dont know how to code, w3school, and a  CSS file for styling.
+The website uses is coded in html, with the help Bootstrap 5, Chatgpt of course for things I dont know how to code,
+such as, Dark and light mode feature. W3school, and a  CSS file for styling.
 
 ---
 
