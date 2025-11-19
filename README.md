@@ -1,8 +1,8 @@
 # GenAI InfoSite
 
-A student-friendly, static website about Generative AI (GenAI), its FAQs, ethical use, and an analogy comparing AI-assisted work in development.  
+My Pre-Finals static website about Generative AI (GenAI), its FAQs, ethical use, and an analogy comparing AI-assisted work in development.  
 
-The website uses animations, Bootstrap 5, and a  CSS file for styling.
+The website uses is coded in html, with the help Bootstrap 5, a little bit of Chatgpt for things I dont know how to code, and a  CSS file for styling.
 
 ---
 
@@ -36,21 +36,20 @@ Deployed links
 4.https://jrlobis-cmyk.github.io/CSDC100-PREFINALS/article.html
 
 
-Frameworks / Libraries Used
+Libraries Used
 
-- **Bootstrap 5.3.3**  
-- **Custom CSS (style.css)**  
-- **Basic CSS animations** (fade-in, slide-up, hover-grow, shadow-appear)
+- Bootstrap 5.3.3  
+- Basic CSS animations (fade-in, slide-up, hover-grow, shadow-appear)
 
 Animations
 
-- **fade-in** → Navbar, footer, and content boxes  
-- **slide-up** → Main sections for smooth entrance  
-- **hover-grow** → Buttons and cards on hover  
-- **shadow-appear** → Adds subtle shadow to content boxes  
+- fade-in 
+- slide-up
+- hover-grow 
+- shadow-appear 
 
 References
-
+- Bootstrap
 - ChatGPT (OpenAI)  
 - Stanford AI Index 2024  
 - Google AI Education  
