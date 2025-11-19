@@ -59,10 +59,6 @@ References
 
   Created by John Rey A. Lobis, ZC12
 
-![screenshot](/img/Screenshot 2025-11-18 093630.png)
-![screenshot](/img/Screenshot 2025-11-18 093649.png)
-![screenshot](/img/Screenshot 2025-11-18 093658.png)
-![screenshot](/img/Screenshot 2025-11-18 093709.png)
 <img width="1918" height="890" alt="Screenshot 2025-11-18 093630" src="https://github.com/user-attachments/assets/96e09395-9e06-4f01-bf2b-aef57540244d" />
 <img width="1918" height="893" alt="Screenshot 2025-11-18 093649" src="https://github.com/user-attachments/assets/44b62f60-9868-44ca-a74a-2e1d5a5146f4" />
 <img width="1918" height="892" alt="Screenshot 2025-11-18 093658" src="https://github.com/user-attachments/assets/a2e85cc7-c6d5-4934-b894-b5463cd83c93" />
