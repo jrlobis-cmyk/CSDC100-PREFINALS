@@ -1,5 +1,5 @@
 :root{
-  --bg: #f8f9fa;
+  --bg: #010d1a;
   --text: #111;
   --muted: #555;
   --nav-bg: #4a4a9c;
@@ -9,11 +9,11 @@
   --hero-text: #fff;
   --card-bg: #ffffff;
   --card-shadow: 0px 3px 8px rgba(0,0,0,0.1);
-  --footer-bg: var(--card-bg); /* default footer matches card (light) */
+  --footer-bg: var(--card-bg);
   --footer-border: transparent;
 }
 
-/* Dark mode variables (overrides applied when body.dark is present) */
+/* Dark mode variables */
 body.dark {
   --bg: #0b1220;
   --text: #e6eef8;
@@ -138,4 +138,5 @@ body {
   from { box-shadow: 0 0 0 rgba(0,0,0,0); }
   to { box-shadow: 0px 4px 12px rgba(0,0,0,0.2); }
 }
+
 
